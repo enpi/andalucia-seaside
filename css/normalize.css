@@ -349,3 +349,8 @@ template {
 [hidden] {
   display: none;
 }
+
+.carousel-item img {
+    height: 500px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image covers the set max-height while maintaining aspect ratio */
+}
